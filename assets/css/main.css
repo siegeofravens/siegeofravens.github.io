@@ -172,6 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -179,6 +180,7 @@ input, select, textarea {
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2859,6 +2861,43 @@ input, select, textarea {
 			}
 
 		}
+    
+        .social {
+            color: #909096;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            height: 20rem;
+        }
+
+        .social li {
+            text-align: center;
+        }
+
+        social li a {
+            padding: 2rem 7px;
+        }
+
+        .social svg {
+            width: 1.5rem;
+        }
+
+        .social svg path {
+            -webkit-transition: fill 0.3s;
+            -o-transition: fill 0.3s;
+            transition: fill 0.3s;
+            fill: #909096;
+        }
+
+    #sidebar > .inner .social {
+        margin-top: 2rem;
+        height: 4rem;
+    }
 
 /* Section/Article */
 
