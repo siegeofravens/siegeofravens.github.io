@@ -2605,10 +2605,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
-            .image.fit-profilepic img {
-                width: 100%;
-                max-width: 200px
-            }
+        .image.fit-profilepic img {
+            width: 100%;
+            max-width: 200px
+        }
 
 		.image.main {
 			display: block;
