@@ -2198,7 +2198,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				.features section .icon {
@@ -2211,7 +2211,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: .6em .6em 0.6em .6em ;
 			}
 
 				.features section .icon {
@@ -2604,6 +2604,10 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+            .image.fit-profilepic {
+                max-width: 200px
+            }
 
 		.image.main {
 			display: block;
