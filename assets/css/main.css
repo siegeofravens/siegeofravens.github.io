@@ -2023,7 +2023,7 @@ input, select, textarea {
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
 				transform: scale(1);
-				position: sticky;
+				position: initial;
 				left: 3em;
 				top: 3em;
 				opacity: 1;
@@ -2198,7 +2198,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 1em 1em 1em 1em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 				.features section .icon {
@@ -2211,12 +2211,12 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: .6em .6em 0.6em .6em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				.features section .icon {
 					left: 0;
-					position: relative;
+					position: initial;
 					top: 0;
 				}
 
