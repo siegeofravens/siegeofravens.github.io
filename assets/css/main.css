@@ -2862,42 +2862,6 @@ input, select, textarea {
 
 		}
     
-        .social {
-            color: #909096;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            height: 20rem;
-        }
-
-        .social li {
-            text-align: center;
-        }
-
-        social li a {
-            padding: 2rem 7px;
-        }
-
-        .social svg {
-            width: 1.5rem;
-        }
-
-        .social svg path {
-            -webkit-transition: fill 0.3s;
-            -o-transition: fill 0.3s;
-            transition: fill 0.3s;
-            fill: #909096;
-        }
-
-    #sidebar > .inner .social {
-        margin-top: 2rem;
-        height: 4rem;
-    }
 
 /* Section/Article */
 
